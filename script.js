@@ -24,7 +24,7 @@ async function generateAiRecommendations(plasticWaste, transportUsage, energyCon
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer YOUR_API_KEY' // Replace with your ChatGPT API key
+      'Authorization': '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' // Replace with your ChatGPT API key
     },
     body: JSON.stringify({
       model: 'gpt-3.5-turbo', // You can use the latest model or another model you prefer
